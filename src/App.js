@@ -1,33 +1,19 @@
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
-<<<<<<< HEAD
-import NavBar from "./components/NavBar.js";
-=======
->>>>>>> d3bcad3f02ae4f91911e3d0defe54dd03f94bb2d
+import NavBar from './components/NavBar.js';
+import Titulo from './components/ItemListContainer.js';
 
-function App() {
-  return (
-    <div className="App">
-<<<<<<< HEAD
-      <NavBar class="navBar"></NavBar>
-=======
->>>>>>> d3bcad3f02ae4f91911e3d0defe54dd03f94bb2d
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  render(){
+      return (
+      <div className="App">
+        <NavBar class="navBar"></NavBar>
+        <Titulo
+          title='Guitar Market'
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
