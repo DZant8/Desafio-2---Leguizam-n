@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import './components/ItemListContainer.css';
+import './components/container/ItemListContainer.css';
 import NavBar from './components/NavBar.js';
-import ItemListContainer from './components/ItemListContainer.js';
+import ItemListContainer from './components/container/ItemListContainer.js';
 import ItemCount from './components/ItemCount';
 
 class App extends Component{

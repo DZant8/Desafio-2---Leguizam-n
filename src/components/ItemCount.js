@@ -15,7 +15,6 @@ const ItemCount = () => {
 
     return(
         <div className="contador">
-            <h1> Stock: {stock}</h1>
             <h1> Contador: {counter}</h1>
             <div className='btn'>
                 <div className='btn-section'>
